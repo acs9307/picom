@@ -4,9 +4,9 @@ picom:
 	rm *.o
 	
 install:
-	mkdir -p /usr/local/picom
-	rm -f /usr/local/picom/*.h
-	cp *.h /usr/local/picom
+	mkdir -p /usr/local/include/picom
+	rm -f /usr/local/include/picom/*.h
+	cp *.h /usr/local/include/picom
 	mv libpicom.a /usr/local/lib
 	
 all:
